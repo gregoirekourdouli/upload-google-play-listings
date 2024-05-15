@@ -1,5 +1,9 @@
 name: 'Upload Android Listings'
-description: 'Upload the android application description to google play'
+description: 'Upload Android Applications Title and Description to Google Play'
+author: 'gregoirekourdouli'
+branding:
+  icon: 'truck'
+  color: 'yellow'
 inputs:
   serviceAccountJson:
     description: "The service account json private key file to authorize the upload request"
