@@ -22,7 +22,7 @@ It DOES NOT upload the application release files (.apk or .aab)! To upload the a
 The below example publishes the title and descriptions in italian of `MyApp` to Google Play.
 
 ```yaml
-uses: gregoirekourdouli/upload-google-play-listings@v1
+uses: gregoirekourdouli/upload-google-play-listings@v1.0.0
 with:
   serviceAccountJsonPlainText: ${{ SERVICE_ACCOUNT_JSON }}
   packageName: com.example.MyApp
