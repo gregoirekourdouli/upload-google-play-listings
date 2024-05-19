@@ -1,7 +1,10 @@
 # Upload Android Applications Title and Descriptions to the Play Store
 
 This action will help you upload the title and descriptions of Android applications to the Google Play Console using the Google Play Developer API v3.
-It DOES NOT upload the application release files (.apk or .aab)! To upload the app, use another action like [this one](https://github.com/marketplace/actions/upload-android-release-to-play-store).
+It DOES NOT upload the application release files (.apk or .aab).  
+  
+To upload the app itself, you can use [this action](https://github.com/marketplace/actions/upload-android-release-to-play-store).  
+To upload the app screenshots, you can use [this other action](https://github.com/marketplace/actions/upload-android-screenshots).
 
 ## Inputs
 
